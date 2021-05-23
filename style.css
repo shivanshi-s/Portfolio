@@ -8,7 +8,8 @@
 
 
 body {
-    font-family:'Rubik', sans-serif; ;
+    font-family:'Rubik', sans-serif; 
+    margin: 0px;
 }
 
 h1 {
@@ -26,8 +27,10 @@ h1 {
 
 /*------ Links----- */
 .link {
+    box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
+    margin: 1rem 0rem ;
 
 }
 .primary-link {
@@ -87,6 +90,7 @@ h1 {
     margin: auto;
 }
 .hero .hero-heading {
+    text-align: center;
     color: var(--dark-color);
     padding-top: 1rem;
 }
@@ -115,6 +119,11 @@ h1 {
 .footer .link {
     color: white;
 }
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
 .footer ul {
     padding-inline-start: 0px;
 }
