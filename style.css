@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
 
 :root {
-    --primary-color : #DB2777;
+    --primary-color : #047857;
     --dark-color: #4B5563;
     --off-white:#E5E7EB;
 }
@@ -25,6 +25,8 @@ h1 {
     margin: auto;
 }
 
+
+
 /*------ Links----- */
 .link {
     box-sizing: border-box;
@@ -38,11 +40,18 @@ h1 {
     border-radius: 0.5rem;
     color: white;
 }
+.primary-link:hover {
+    color: black;
+}
+
 .secondary-link {
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
 
+}
+.secondary-link:hover {
+    color: black;
 }
 
 /* look into BEM naming convention for css */
@@ -93,6 +102,7 @@ h1 {
     text-align: center;
     color: var(--dark-color);
     padding-top: 1rem;
+    padding-bottom: 0;
 }
 
 /* -----sections------- */
@@ -100,7 +110,7 @@ h1 {
 .section {
     padding: 1.5rem;
 }
-.section h1{
+.section .section-head{
     text-align: center;
 }
 
@@ -126,4 +136,13 @@ h1 {
 
 .footer ul {
     padding-inline-start: 0px;
+}
+
+/* ----list space---- */
+.spacing {
+    padding:50px;
+}
+.space-color {
+    background-color:var(--off-white); 
+    
 }
